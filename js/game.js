@@ -38,7 +38,8 @@ const gap = 90
 const moveUp = () => {
     yPos -= 25
 }
-document.addEventListener('touchstart keydown', moveUp)
+document.addEventListener('keydown', moveUp)
+cvs.addEventListener('touchstart', moveUp)
 
 // blocks
 const pipe = []
