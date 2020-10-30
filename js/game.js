@@ -39,7 +39,7 @@ const moveUp = () => {
     yPos -= 25
 }
 document.addEventListener('keydown', moveUp)
-document.addEventListener('touchstart ', moveUp)
+document.addEventListener('touchend ', moveUp)
 
 // blocks
 const pipe = []
