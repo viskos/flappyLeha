@@ -2,10 +2,28 @@
 <html lang="ru">
 <head>
     <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width;
+    initial-scale=1; maximum-scale=1; user-scalable=0;"/>
+    <link rel="stylesheet" href="styles.css">
     <title>Flappy Leha</title>
 </head>
 <body>
-<canvas id="canvas" width="288" height="512"></canvas>
+<div id="loader-content">
+    <p>Если Леха крутится, это значит что интернет у тебя хуйня)</p>
+    <img src="img/leha.png" alt="">
+</div>
+<div class="game">
+    <div id="theEnd" style="display: none">
+        <p>Шпритцы спидозные</p>
+        <p>Хуи тоже)</p>
+        <p>Держу в курсе</p>
+        <p><span id="reload"><img src="img/leha.png" alt="leshka"></span></p>
+    </div>
+    <canvas id="canvas" width="288" height="512">
+        Ах ты сука, а твой браузер ебанный блять не поддерживает эту технолоджи. ОТСОСИ
+    </canvas>
+</div>
+
 <script src="js/game.js"></script>
 </body>
 </html>
